@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1409.2799
     height: 786.43195
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 8723
+  controlID: 63
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 8724
+  controlID: 17
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 8725
+  controlID: 95
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -247,7 +247,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 8636
+  controlID: 18
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -342,7 +342,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: WaterFall
+    m_Text: WaterFall (nothing loaded)
     m_Image: {fileID: 2800000, guid: 7129268cf102b2f45809905bcb27ce8b, type: 3}
     m_Tooltip: 
   m_Pos:
@@ -1344,8 +1344,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -101, y: -26.112}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -99.07202, y: -26.112}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -1355,9 +1355,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -141, y: -155.89597}
+      snapOffset: {x: -141, y: 149}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 3
+      snapCorner: 1
       id: unity-grid-and-snap-toolbar
       index: 1
       layout: 1
@@ -1587,11 +1587,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.24463165, y: 0.20894742, z: -0.053793564, w: 0.9479701}
     speed: 2
-    m_Value: {x: 0.24259892, y: 0.20850338, z: -0.053342685, w: 0.9459527}
+    m_Value: {x: 0.24401693, y: 0.20842238, z: -0.053658392, w: 0.94558805}
   m_Size:
     m_Target: 1.2385494
     speed: 2
-    m_Value: 1.1852146
+    m_Value: 1.2385494
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1650,7 +1650,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 06fbffff82690000
+      m_ExpandedIDs: 06fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1763,7 +1763,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 1
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -1776,7 +1776,7 @@ MonoBehaviour:
       y: 21
       width: 739.352
       height: 368.03195
-    m_Scale: {x: 0.4690297, y: 0.4690297}
+    m_Scale: {x: 0.4437114, y: 0.4437114}
     m_Translation: {x: 369.676, y: 184.01598}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -1784,12 +1784,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -788.1718
-      y: -392.3333
-      width: 1576.3436
-      height: 784.6666
+      x: -833.14514
+      y: -414.71997
+      width: 1666.2903
+      height: 829.43994
     m_MinimalGUI: 1
-  m_defaultScale: 0.4690297
+  m_defaultScale: 0.4437114
   m_LastWindowPixelSize: {x: 962.69794, y: 506.55203}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -1838,22 +1838,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Level02/Model
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Level02/Model
+  - Assets
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: D:\Projects\CIGA_Test_URP
+  m_LastProjectPath: D:\Projects\NornsGate_CUSGA
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 246e0000
-    m_LastClickedID: 28196
-    m_ExpandedIDs: 00000000686c00006a6c000000ca9a3b
+    m_SelectedIDs: 866c0000
+    m_LastClickedID: 27782
+    m_ExpandedIDs: 00000000866c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1881,7 +1881,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000686c00006a6c000000ca9a3b
+    m_ExpandedIDs: 00000000866c0000886c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1908,7 +1908,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000f4820000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
