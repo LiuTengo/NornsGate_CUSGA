@@ -1,0 +1,1479 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8130211352196251607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc54790c38d56d240bbd83cf672713a4, type: 3}
+  m_Name: "Aside: <$Gwyneth> fin\u2026"
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -504, y: -184}
+  ports:
+    keys:
+    - Input
+    - Output
+    values:
+    - _fieldName: Input
+      _node: {fileID: -8130211352196251607}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: 8618772338054609148}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output
+      _node: {fileID: -8130211352196251607}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -6313823554321863516}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  TalkingPerson: Aside
+  Expression: None
+  Facing: 0
+  FacingPerson: 
+  Width: 0
+  ShowBubble: 1
+  CameraFollow: 1
+  Audio: {fileID: 0}
+  PlayPerChar: 0
+  PlayTyping: 0
+  Dialogue:
+  - '<$Gwyneth> finally gets home, <w>she opens the door <w=0.2>and greets by the
+    delicious smell of cookies. '
+  IsMax: 1
+  curIndex: 0
+--- !u!114 &-6673095891628553627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a391752700ffb442a5ce5508f41175f, type: 3}
+  m_Name: Event
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -888, y: -616}
+  ports:
+    keys:
+    - Input
+    - Output
+    values:
+    - _fieldName: Input
+      _node: {fileID: -6673095891628553627}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Ouput
+        node: {fileID: 8305212464812665232}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output
+      _node: {fileID: -6673095891628553627}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -4042966915397244269}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  EventName: MidG
+  WaitCallback: 0
+  EventValue:
+  - ValueType: 2
+    intValue: 0
+    floatValue: 0
+    stringValue: Shelf
+    boolValue: 0
+    guid: 242ef533-2430-4f41-87cd-0c18d3c6fb99
+  - ValueType: 3
+    intValue: 0
+    floatValue: 0
+    stringValue: Shelf
+    boolValue: 0
+    guid: 242ef533-2430-4f41-87cd-0c18d3c6fb99
+  IsMax: 1
+  IsWaiting: 0
+--- !u!114 &-6471307816586095124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a391752700ffb442a5ce5508f41175f, type: 3}
+  m_Name: Event
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 819.06226, y: -809.89154}
+  ports:
+    keys:
+    - Input
+    - Output
+    values:
+    - _fieldName: Input
+      _node: {fileID: -6471307816586095124}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: 459329747303811429}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output
+      _node: {fileID: -6471307816586095124}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: 4816199832558234164}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  EventName: MidG
+  WaitCallback: 0
+  EventValue:
+  - ValueType: 2
+    intValue: 0
+    floatValue: 0
+    stringValue: Fridge
+    boolValue: 0
+    guid: 242ef533-2430-4f41-87cd-0c18d3c6fb99
+  - ValueType: 3
+    intValue: 0
+    floatValue: 0
+    stringValue: Shelf
+    boolValue: 0
+    guid: 242ef533-2430-4f41-87cd-0c18d3c6fb99
+  IsMax: 1
+  IsWaiting: 0
+--- !u!114 &-6378912617871150298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc54790c38d56d240bbd83cf672713a4, type: 3}
+  m_Name: "Jimmy: Thank you, Gwy\u2026"
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1288, y: -72}
+  ports:
+    keys:
+    - Input
+    - Output
+    values:
+    - _fieldName: Input
+      _node: {fileID: -6378912617871150298}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: -811615074200732278}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output
+      _node: {fileID: -6378912617871150298}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: -2182567192333141599}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  TalkingPerson: Jimmy
+  Expression: None
+  Facing: 0
+  FacingPerson: 
+  Width: 0
+  ShowBubble: 1
+  CameraFollow: 1
+  Audio: {fileID: 0}
+  PlayPerChar: 0
+  PlayTyping: 0
+  Dialogue:
+  - 'Thank you, Gwyneth! '
+  - 'Thank you for helping me. '
+  - 'If it wasn''t for you, <w>I could have been hurt worse today. '
+  IsMax: 1
+  curIndex: 0
+--- !u!114 &-6313823554321863516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a391752700ffb442a5ce5508f41175f, type: 3}
+  m_Name: Event
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -168, y: -312}
+  ports:
+    keys:
+    - Input
+    - Output
+    values:
+    - _fieldName: Input
+      _node: {fileID: -6313823554321863516}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: -8130211352196251607}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output
+      _node: {fileID: -6313823554321863516}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -3349600677735732759}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  EventName: MidG
+  WaitCallback: 0
+  EventValue:
+  - ValueType: 2
+    intValue: 0
+    floatValue: 0
+    stringValue: Fridge
+    boolValue: 0
+    guid: 242ef533-2430-4f41-87cd-0c18d3c6fb99
+  - ValueType: 3
+    intValue: 0
+    floatValue: 0
+    stringValue: Shelf
+    boolValue: 1
+    guid: 242ef533-2430-4f41-87cd-0c18d3c6fb99
+  IsMax: 1
+  IsWaiting: 0
+--- !u!114 &-4232717287047307099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc54790c38d56d240bbd83cf672713a4, type: 3}
+  m_Name: "Gwyneth: I hate bullies\u2026"
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1624, y: -360}
+  ports:
+    keys:
+    - Input
+    - Output
+    values:
+    - _fieldName: Input
+      _node: {fileID: -4232717287047307099}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Option 1
+        node: {fileID: -2182567192333141599}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output
+      _node: {fileID: -4232717287047307099}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 7741903747998999591}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  TalkingPerson: Gwyneth
+  Expression: None
+  Facing: 0
+  FacingPerson: 
+  Width: 0
+  ShowBubble: 1
+  CameraFollow: 1
+  Audio: {fileID: 0}
+  PlayPerChar: 0
+  PlayTyping: 0
+  Dialogue:
+  - I hate bullies. They shouldn't exist. Did the nurse check on the bruise on your
+    face?
+  IsMax: 1
+  curIndex: 0
+--- !u!114 &-4042966915397244269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a391752700ffb442a5ce5508f41175f, type: 3}
+  m_Name: Event
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -888, y: -328}
+  ports:
+    keys:
+    - Input
+    - Output
+    values:
+    - _fieldName: Input
+      _node: {fileID: -4042966915397244269}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: -6673095891628553627}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output
+      _node: {fileID: -4042966915397244269}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 8618772338054609148}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  EventName: BGM
+  WaitCallback: 0
+  EventValue:
+  - ValueType: 2
+    intValue: 0
+    floatValue: 0
+    stringValue: home
+    boolValue: 0
+    guid: 
+  IsMax: 1
+  IsWaiting: 0
+--- !u!114 &-3791645287605487158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a391752700ffb442a5ce5508f41175f, type: 3}
+  m_Name: Event
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3080, y: 8}
+  ports:
+    keys:
+    - Input
+    - Output
+    values:
+    - _fieldName: Input
+      _node: {fileID: -3791645287605487158}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Option 1
+        node: {fileID: -3185103792743093059}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output
+      _node: {fileID: -3791645287605487158}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  EventName: NextGraph
+  WaitCallback: 0
+  EventValue:
+  - ValueType: 0
+    intValue: 5
+    floatValue: 0
+    stringValue: 
+    boolValue: 0
+    guid: 
+  IsMax: 1
+  IsWaiting: 0
+--- !u!114 &-3349600677735732759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc54790c38d56d240bbd83cf672713a4, type: 3}
+  m_Name: "Aside: <$Gwyneth> goe\u2026"
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -24, y: 8}
+  ports:
+    keys:
+    - Input
+    - Output
+    values:
+    - _fieldName: Input
+      _node: {fileID: -3349600677735732759}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: -6313823554321863516}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output
+      _node: {fileID: -3349600677735732759}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: -1279748366989054959}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  TalkingPerson: Aside
+  Expression: None
+  Facing: 0
+  FacingPerson: 
+  Width: 0
+  ShowBubble: 1
+  CameraFollow: 1
+  Audio: {fileID: 0}
+  PlayPerChar: 0
+  PlayTyping: 0
+  Dialogue:
+  - <$Gwyneth> goes to the kitchen and a note is attach to the refrigerator.
+  IsMax: 1
+  curIndex: 0
+--- !u!114 &-3289541724460078004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc54790c38d56d240bbd83cf672713a4, type: 3}
+  m_Name: "Gwyneth: It's okay, Jim\u2026"
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1592, y: -744}
+  ports:
+    keys:
+    - Input
+    - Output
+    values:
+    - _fieldName: Input
+      _node: {fileID: -3289541724460078004}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Option 0
+        node: {fileID: -2182567192333141599}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output
+      _node: {fileID: -3289541724460078004}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 7741903747998999591}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  TalkingPerson: Gwyneth
+  Expression: None
+  Facing: 0
+  FacingPerson: 
+  Width: 0
+  ShowBubble: 1
+  CameraFollow: 1
+  Audio: {fileID: 0}
+  PlayPerChar: 0
+  PlayTyping: 0
+  Dialogue:
+  - It's okay, Jimmy. You're my friend. Does your face still hurt?
+  IsMax: 1
+  curIndex: 0
+--- !u!114 &-3185103792743093059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4b6094ef12246b4dbe7b97032dabf94, type: 3}
+  m_Name: 'Option: Click it'
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2664, y: -232}
+  ports:
+    keys:
+    - Output
+    - Option
+    - Option 0
+    - Option 1
+    values:
+    - _fieldName: Output
+      _node: {fileID: -3185103792743093059}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: 3319868800664575358}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Option
+      _node: {fileID: -3185103792743093059}
+      _typeQualifiedName: System.Collections.Generic.List`1[[OptionClass, PlayTextAssembly,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Option 0
+      _node: {fileID: -3185103792743093059}
+      _typeQualifiedName: OptionClass, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 4033380448427136272}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Option 1
+      _node: {fileID: -3185103792743093059}
+      _typeQualifiedName: OptionClass, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -3791645287605487158}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  CameraFollow: 1
+  Width: 0
+  Option:
+  - Text: Click it
+  - Text: Ignore it
+--- !u!114 &-2182567192333141599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4b6094ef12246b4dbe7b97032dabf94, type: 3}
+  m_Name: "Option: You're my frie\u2026"
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1256, y: -520}
+  ports:
+    keys:
+    - Output
+    - Option
+    - Option 0
+    - Option 1
+    values:
+    - _fieldName: Output
+      _node: {fileID: -2182567192333141599}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: -6378912617871150298}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Option
+      _node: {fileID: -2182567192333141599}
+      _typeQualifiedName: System.Collections.Generic.List`1[[OptionClass, PlayTextAssembly,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Option 0
+      _node: {fileID: -2182567192333141599}
+      _typeQualifiedName: OptionClass, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -3289541724460078004}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Option 1
+      _node: {fileID: -2182567192333141599}
+      _typeQualifiedName: OptionClass, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -4232717287047307099}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  CameraFollow: 1
+  Width: 0
+  Option:
+  - Text: 'You''re my friend. '
+  - Text: 'I hate bullies. '
+--- !u!114 &-1279748366989054959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4b6094ef12246b4dbe7b97032dabf94, type: 3}
+  m_Name: "Option: Go see the not\u2026"
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 136, y: -536}
+  ports:
+    keys:
+    - Output
+    - Option
+    - Option 0
+    - Option 1
+    values:
+    - _fieldName: Output
+      _node: {fileID: -1279748366989054959}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: -3349600677735732759}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Option
+      _node: {fileID: -1279748366989054959}
+      _typeQualifiedName: System.Collections.Generic.List`1[[OptionClass, PlayTextAssembly,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Option 0
+      _node: {fileID: -1279748366989054959}
+      _typeQualifiedName: OptionClass, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 459329747303811429}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Option 1
+      _node: {fileID: -1279748366989054959}
+      _typeQualifiedName: OptionClass, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 1326970922386763745}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  CameraFollow: 1
+  Width: 0
+  Option:
+  - Text: Go see the note
+  - Text: Pick a cookie from the plate
+--- !u!114 &-925261342427004447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc54790c38d56d240bbd83cf672713a4, type: 3}
+  m_Name: "Aside: Oh! <w=0.3>Del\u2026"
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 824, y: -120}
+  ports:
+    keys:
+    - Input
+    - Output
+    values:
+    - _fieldName: Input
+      _node: {fileID: -925261342427004447}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: 1836636988769593443}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output
+      _node: {fileID: -925261342427004447}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -811615074200732278}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  TalkingPerson: Aside
+  Expression: None
+  Facing: 0
+  FacingPerson: 
+  Width: 0
+  ShowBubble: 1
+  CameraFollow: 1
+  Audio: {fileID: 0}
+  PlayPerChar: 0
+  PlayTyping: 0
+  Dialogue:
+  - 'Oh! <w=0.3>Delicious as ever. <w><$Gwyneth> lay down on the sofa with the whole
+    plate of cookies. '
+  - <$Gwyneth> picks up her phone <w>and a message catches her eye.
+  - 'It is a text from <color=blue>Jimmy</color>: '
+  IsMax: 1
+  curIndex: 0
+--- !u!114 &-811615074200732278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a391752700ffb442a5ce5508f41175f, type: 3}
+  m_Name: Event
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1000, y: 520}
+  ports:
+    keys:
+    - Input
+    - Output
+    values:
+    - _fieldName: Input
+      _node: {fileID: -811615074200732278}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: -925261342427004447}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output
+      _node: {fileID: -811615074200732278}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -6378912617871150298}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  EventName: MidG
+  WaitCallback: 0
+  EventValue:
+  - ValueType: 2
+    intValue: 0
+    floatValue: 0
+    stringValue: Cookie
+    boolValue: 0
+    guid: 242ef533-2430-4f41-87cd-0c18d3c6fb99
+  - ValueType: 3
+    intValue: 0
+    floatValue: 0
+    stringValue: Shelf
+    boolValue: 0
+    guid: 242ef533-2430-4f41-87cd-0c18d3c6fb99
+  IsMax: 1
+  IsWaiting: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2784bac956dac04b9b62556f83545a0, type: 3}
+  m_Name: Graph02
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 3863972857859825282}
+  - {fileID: 8305212464812665232}
+  - {fileID: -8130211352196251607}
+  - {fileID: -1279748366989054959}
+  - {fileID: 459329747303811429}
+  - {fileID: 4816199832558234164}
+  - {fileID: -925261342427004447}
+  - {fileID: -2182567192333141599}
+  - {fileID: 7741903747998999591}
+  - {fileID: 3319868800664575358}
+  - {fileID: -3185103792743093059}
+  - {fileID: 4033380448427136272}
+  - {fileID: -3791645287605487158}
+  - {fileID: 8618772338054609148}
+  - {fileID: -4042966915397244269}
+  - {fileID: -6378912617871150298}
+  - {fileID: -3289541724460078004}
+  - {fileID: -4232717287047307099}
+  - {fileID: -6673095891628553627}
+  - {fileID: -3349600677735732759}
+  - {fileID: -6313823554321863516}
+  - {fileID: 1326970922386763745}
+  - {fileID: -6471307816586095124}
+  - {fileID: 1836636988769593443}
+  - {fileID: -811615074200732278}
+  startNode: {fileID: 0}
+  dialogueNode: {fileID: 0}
+  optionNode: {fileID: 0}
+  eventNode: {fileID: 0}
+  commentNode: {fileID: 0}
+  profileNode: {fileID: 3863972857859825282}
+  current: {fileID: 8305212464812665232}
+--- !u!114 &459329747303811429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc54790c38d56d240bbd83cf672713a4, type: 3}
+  m_Name: "Aside: It is a note l\u2026"
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 440, y: -728}
+  ports:
+    keys:
+    - Input
+    - Output
+    values:
+    - _fieldName: Input
+      _node: {fileID: 459329747303811429}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Option 0
+        node: {fileID: -1279748366989054959}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output
+      _node: {fileID: 459329747303811429}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -6471307816586095124}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  TalkingPerson: Aside
+  Expression: None
+  Facing: 0
+  FacingPerson: 
+  Width: 0
+  ShowBubble: 1
+  CameraFollow: 1
+  Audio: {fileID: 0}
+  PlayPerChar: 0
+  PlayTyping: 0
+  Dialogue:
+  - 'It is a note left by Grandma: <w> '
+  - '<sp=8><color=blue>Honey, I made your favorite cookies. '
+  - '<color=blue>They''ll be delicious while they''re hot! '
+  - '<color=blue>Tomorrow is your brother''s eighth birthday. '
+  - '<color=blue>I will be there too. '
+  - Please come. 11pm at Zoom Foods.</sp>
+  - '"They haven''t had a birthday party for me since my brother was born," <w>Gwyneth
+    thinks.'
+  IsMax: 0
+  curIndex: 0
+--- !u!114 &1326970922386763745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a391752700ffb442a5ce5508f41175f, type: 3}
+  m_Name: Event
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 280, y: -200}
+  ports:
+    keys:
+    - Input
+    - Output
+    values:
+    - _fieldName: Input
+      _node: {fileID: 1326970922386763745}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Option 1
+        node: {fileID: -1279748366989054959}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output
+      _node: {fileID: 1326970922386763745}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 1836636988769593443}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  EventName: MidG
+  WaitCallback: 0
+  EventValue:
+  - ValueType: 2
+    intValue: 0
+    floatValue: 0
+    stringValue: Fridge
+    boolValue: 0
+    guid: 242ef533-2430-4f41-87cd-0c18d3c6fb99
+  - ValueType: 3
+    intValue: 0
+    floatValue: 0
+    stringValue: Shelf
+    boolValue: 0
+    guid: 242ef533-2430-4f41-87cd-0c18d3c6fb99
+  IsMax: 1
+  IsWaiting: 0
+--- !u!114 &1836636988769593443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a391752700ffb442a5ce5508f41175f, type: 3}
+  m_Name: Event
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 472, y: 120}
+  ports:
+    keys:
+    - Input
+    - Output
+    values:
+    - _fieldName: Input
+      _node: {fileID: 1836636988769593443}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: 1326970922386763745}
+        reroutePoints: []
+      - fieldName: Option 0
+        node: {fileID: 4816199832558234164}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output
+      _node: {fileID: 1836636988769593443}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -925261342427004447}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  EventName: MidG
+  WaitCallback: 0
+  EventValue:
+  - ValueType: 2
+    intValue: 0
+    floatValue: 0
+    stringValue: Cookie
+    boolValue: 0
+    guid: 242ef533-2430-4f41-87cd-0c18d3c6fb99
+  - ValueType: 3
+    intValue: 0
+    floatValue: 0
+    stringValue: Shelf
+    boolValue: 1
+    guid: 242ef533-2430-4f41-87cd-0c18d3c6fb99
+  IsMax: 1
+  IsWaiting: 0
+--- !u!114 &3319868800664575358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc54790c38d56d240bbd83cf672713a4, type: 3}
+  m_Name: "Aside: Jimmy's text m\u2026"
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2312, y: -200}
+  ports:
+    keys:
+    - Input
+    - Output
+    values:
+    - _fieldName: Input
+      _node: {fileID: 3319868800664575358}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: 7741903747998999591}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output
+      _node: {fileID: 3319868800664575358}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: -3185103792743093059}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  TalkingPerson: Aside
+  Expression: None
+  Facing: 0
+  FacingPerson: 
+  Width: 0
+  ShowBubble: 1
+  CameraFollow: 1
+  Audio: {fileID: 0}
+  PlayPerChar: 0
+  PlayTyping: 0
+  Dialogue:
+  - Jimmy's text message just came, <w>and a video is recommended by Wetube.
+  IsMax: 1
+  curIndex: 0
+--- !u!114 &3863972857859825282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6a5d78950873f44a797d0c84c321bc, type: 3}
+  m_Name: Profile
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1208, y: -216}
+  ports:
+    keys: []
+    values: []
+  dialogueProfile: {fileID: 11400000, guid: 642cc14728e3efa49ab674267eaa7e96, type: 2}
+--- !u!114 &4033380448427136272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a391752700ffb442a5ce5508f41175f, type: 3}
+  m_Name: Event
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3080, y: -328}
+  ports:
+    keys:
+    - Input
+    - Output
+    values:
+    - _fieldName: Input
+      _node: {fileID: 4033380448427136272}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Option 0
+        node: {fileID: -3185103792743093059}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output
+      _node: {fileID: 4033380448427136272}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  EventName: NextGraph
+  WaitCallback: 0
+  EventValue:
+  - ValueType: 0
+    intValue: 4
+    floatValue: 0
+    stringValue: 
+    boolValue: 0
+    guid: 
+  IsMax: 1
+  IsWaiting: 0
+--- !u!114 &4816199832558234164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4b6094ef12246b4dbe7b97032dabf94, type: 3}
+  m_Name: "Option: Pick a cookie \u2026"
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 536, y: -520}
+  ports:
+    keys:
+    - Output
+    - Option
+    - Option 0
+    values:
+    - _fieldName: Output
+      _node: {fileID: 4816199832558234164}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: -6471307816586095124}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Option
+      _node: {fileID: 4816199832558234164}
+      _typeQualifiedName: System.Collections.Generic.List`1[[OptionClass, PlayTextAssembly,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Option 0
+      _node: {fileID: 4816199832558234164}
+      _typeQualifiedName: OptionClass, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 1836636988769593443}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  CameraFollow: 1
+  Width: -0
+  Option:
+  - Text: Pick a cookie from the plate
+--- !u!114 &7741903747998999591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc54790c38d56d240bbd83cf672713a4, type: 3}
+  m_Name: "Jimmy: I'm fine, don'\u2026"
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1960, y: -504}
+  ports:
+    keys:
+    - Input
+    - Output
+    values:
+    - _fieldName: Input
+      _node: {fileID: 7741903747998999591}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: -3289541724460078004}
+        reroutePoints: []
+      - fieldName: Output
+        node: {fileID: -4232717287047307099}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output
+      _node: {fileID: 7741903747998999591}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 3319868800664575358}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  TalkingPerson: Jimmy
+  Expression: None
+  Facing: 0
+  FacingPerson: 
+  Width: 0
+  ShowBubble: 1
+  CameraFollow: 1
+  Audio: {fileID: 0}
+  PlayPerChar: 0
+  PlayTyping: 0
+  Dialogue:
+  - 'I''m fine, don''t worry. '
+  - 'It''s just a little bruise. '
+  - 'It''ll be fine in a few days. '
+  - 'The nurse said I needed to rest. '
+  - Thanks anyway.
+  - 'I''m gonna go get some rest. '
+  - 'Bye! '
+  IsMax: 1
+  curIndex: 0
+--- !u!114 &8305212464812665232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 857b2783297fa724aa9cb35db8c314c7, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1208, y: -152}
+  ports:
+    keys:
+    - Ouput
+    values:
+    - _fieldName: Ouput
+      _node: {fileID: 8305212464812665232}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -6673095891628553627}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Language: English
+--- !u!114 &8618772338054609148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a391752700ffb442a5ce5508f41175f, type: 3}
+  m_Name: Event
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -888, y: -72}
+  ports:
+    keys:
+    - Input
+    - Output
+    values:
+    - _fieldName: Input
+      _node: {fileID: 8618772338054609148}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: -4042966915397244269}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output
+      _node: {fileID: 8618772338054609148}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -8130211352196251607}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  EventName: ChangeStage
+  WaitCallback: 1
+  EventValue:
+  - ValueType: 2
+    intValue: 0
+    floatValue: 0
+    stringValue: LivingRoom_Home
+    boolValue: 0
+    guid: b948336f-d985-4788-8c3e-673556b6741e
+  IsMax: 1
+  IsWaiting: 0

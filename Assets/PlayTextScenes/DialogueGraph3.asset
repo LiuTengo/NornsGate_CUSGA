@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6044183497975573379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 857b2783297fa724aa9cb35db8c314c7, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -584, y: 8}
+  ports:
+    keys:
+    - Ouput
+    values:
+    - _fieldName: Ouput
+      _node: {fileID: -6044183497975573379}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 1135620344108240939}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Language: 1
+--- !u!114 &-1522845666859590124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc54790c38d56d240bbd83cf672713a4, type: 3}
+  m_Name: 'End:     '
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 206.06021, y: 139.69165}
+  ports:
+    keys:
+    - Input
+    - Output
+    values:
+    - _fieldName: Input
+      _node: {fileID: -1522845666859590124}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Output
+        node: {fileID: 1135620344108240939}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output
+      _node: {fileID: -1522845666859590124}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  TalkingPerson: End
+  Expression: None
+  Facing: 0
+  FacingPerson: 
+  Width: 0
+  ShowBubble: 1
+  CameraFollow: 1
+  Audio: {fileID: 0}
+  PlayPerChar: 0
+  PlayTyping: 0
+  Dialogue:
+  - '    '
+  IsMax: 1
+  curIndex: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2784bac956dac04b9b62556f83545a0, type: 3}
+  m_Name: DialogueGraph3
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 8432548940987735152}
+  - {fileID: -6044183497975573379}
+  - {fileID: 1135620344108240939}
+  - {fileID: -1522845666859590124}
+  startNode: {fileID: 0}
+  dialogueNode: {fileID: 0}
+  optionNode: {fileID: 0}
+  eventNode: {fileID: 0}
+  commentNode: {fileID: 0}
+  profileNode: {fileID: 8432548940987735152}
+  current: {fileID: -6044183497975573379}
+--- !u!114 &1135620344108240939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc54790c38d56d240bbd83cf672713a4, type: 3}
+  m_Name: "Aida: \u827E\u8FBE:\u547C......\u5730\u9707\u4F3C\u4E4E\u2026"
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -280, y: 8}
+  ports:
+    keys:
+    - Input
+    - Output
+    values:
+    - _fieldName: Input
+      _node: {fileID: 1135620344108240939}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Ouput
+        node: {fileID: -6044183497975573379}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Output
+      _node: {fileID: 1135620344108240939}
+      _typeQualifiedName: GraphSpace.Empty, PlayTextAssembly, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -1522845666859590124}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  TalkingPerson: Aida
+  Expression: None
+  Facing: 0
+  FacingPerson: PeopleA
+  Width: 0
+  ShowBubble: 1
+  CameraFollow: 1
+  Audio: {fileID: 0}
+  PlayPerChar: 0
+  PlayTyping: 0
+  Dialogue:
+  - "\u827E\u8FBE:\u547C......\u5730\u9707\u4F3C\u4E4E\u505C\u4E0B\u6765\u4E00\u4F1A\u513F\u4E86\uFF0C\u6682\u65F6\u6D3B\u4E0B\u6765\u4E86"
+  - "\u827E\u8FBE\uFF1A\u8BDD\u8BF4\u6211\u662F\u600E\u4E48\u8FC7\u6765\u7684\u554A\uFF0C\u89C6\u9519\u89C9\u4E0D\u518D\u662F\u610F\u8BC6\u7684\u8BEF\u5224\uFF0C\u800C\u662F\u771F\u5B9E\u7684\u5B58\u5728"
+  - "\u827E\u8FBE\uFF1A\u8FD9\u5C31\u662F\u89C6\u9519\u89C9\u4E16\u754C\u5417\uFF0C\u6211\u4E0D\u4F1A\u5728\u505A\u68A6\u5427?"
+  - "(\u770B\u4E86\u770B\u5C0F\u81C2\u4E0A\u70EB\u4F24\u7684\u75D5\u8FF9)"
+  - "\u827E\u8FBE:\u8FD9\u6050\u6015\u771F\u7684\u4E0D\u662F\u68A6......\u7B97\u4E86\u4E0D\u591A\u60F3\u4E86"
+  - "\u827E\u8FBE\uFF1A\u6559\u5802\u91CC\u597D\u50CF\u6CA1\u6709\u4EBA\uFF0C\u90FD\u53BB\u90A3\u4EC0\u4E48\u5723\u8BFA\u6069\u65AF\u5821\u4E86\u5427"
+  - "\u827E\u8FBE\uFF1A\u90A3\u5C31\u8BA9\u6211\u6765\u770B\u770B\u8FD9\u6559\u4F1A\u80CC\u540E\u5230\u5E95\u85CF\u7740\u4EC0\u4E48\u89C1\u4E0D\u5F97\u4EBA\u7684\u79D8\u5BC6\u5427!"
+  IsMax: 1
+  curIndex: 0
+--- !u!114 &8432548940987735152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6a5d78950873f44a797d0c84c321bc, type: 3}
+  m_Name: Profile
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -616, y: -104}
+  ports:
+    keys: []
+    values: []
+  dialogueProfile: {fileID: 11400000, guid: 282b086772ce0e646a2b7dddeba02c77, type: 2}

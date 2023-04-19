@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e8503ede56ac814381d2113fb702e1b, type: 3}
+  m_Name: Demo Dialogue Profile
+  m_EditorClassIdentifier: 
+  TalkingPerson:
+  - Name: Player
+    Voice: {fileID: 8300000, guid: 10d45ab7b89c3a945b621c3a54831379, type: 3}
+    Expression:
+    - NoneExpression
+  - Name: Archer
+    Voice: {fileID: 0}
+    Expression:
+    - NoneExpression
+  - Name: Warrior
+    Voice: {fileID: 0}
+    Expression:
+    - NoneExpression
+  - Name: OldMan
+    Voice: {fileID: 0}
+    Expression:
+    - NoneExpression
+  - Name: OldWoman
+    Voice: {fileID: 0}
+    Expression:
+    - NoneExpression
+  - Name: Chicken
+    Voice: {fileID: 0}
+    Expression:
+    - NoneExpression
+  DefaultVoice: {fileID: 8300000, guid: 774486030b696474e8b3cf7f178123da, type: 3}
+  Language:
+  - English
+  - "\u4E2D\u6587"
+  ReplaceVariable:
+  - showing: 1
+    Variable: PlayerName
+    Value:
+    - <sh=1,1>[Put Your Name Here]</sh>
+    - "<sh=1,1>[\u8FD9\u91CC\u653E\u4F60\u7684\u540D\u5B57]</sh>"

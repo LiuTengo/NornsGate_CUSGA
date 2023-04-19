@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e8503ede56ac814381d2113fb702e1b, type: 3}
+  m_Name: Profile
+  m_EditorClassIdentifier: 
+  TalkingPerson:
+  - Name: Darren
+    Voice: {fileID: 0}
+    Expression:
+    - None
+  - Name: Aside
+    Voice: {fileID: 0}
+    Expression:
+    - None
+  - Name: Pager
+    Voice: {fileID: 0}
+    Expression:
+    - Broken
+    - WithScreen
+    - WithScreenBattery
+    - Complete
+  - Name: Gwyneth
+    Voice: {fileID: 0}
+    Expression:
+    - None
+    - Angel
+    - Merchant
+  - Name: Money
+    Voice: {fileID: 0}
+    Expression:
+    - None
+  - Name: Tube
+    Voice: {fileID: 0}
+    Expression:
+    - None
+  - Name: Gun
+    Voice: {fileID: 0}
+    Expression:
+    - None
+  - Name: Keyboard
+    Voice: {fileID: 0}
+    Expression:
+    - None
+  - Name: Jimmy
+    Voice: {fileID: 0}
+    Expression:
+    - None
+  DefaultVoice: {fileID: 8300000, guid: 10d45ab7b89c3a945b621c3a54831379, type: 3}
+  Language:
+  - English
+  ReplaceVariable:
+  - showing: 0
+    Variable: Gwyneth
+    Value:
+    - <b><color=blue>Gwyneth</color></b>
+  - showing: 0
+    Variable: Jimmy
+    Value:
+    - <b><color=blue>Jimmy</color></b>
+  - showing: 0
+    Variable: Darren_S
+    Value:
+    - '<v=0><sp=120><b>Darren: </b></sp></v>'
+  - showing: 0
+    Variable: Pager
+    Value:
+    - <b><color=red>Pager</color></b>
+  - showing: 0
+    Variable: Pager_S
+    Value:
+    - '<v=0><sp=120><b>Pager: </b></sp></v>'
+  - showing: 0
+    Variable: Gwyneth_S
+    Value:
+    - '<v=0><sp=120><b>Gwyneth: </b></sp></v>'
