@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Skybox
+  m_Shader: {fileID: 4800000, guid: eec96cba643ee284fab584c1708d80ee, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _GalaxyNoiseTex:
+        m_Texture: {fileID: 2800000, guid: 23297add17ea5de46839518d58b45521, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GalaxyTex:
+        m_Texture: {fileID: 2800000, guid: 3e718a78a2138084fba1197e0776d590, type: 3}
+        m_Scale: {x: 1.2, y: 1.2}
+        m_Offset: {x: 0.67, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: eda420a7f2446564eacf44ca1c74db79, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MoonTex:
+        m_Texture: {fileID: 2800000, guid: eda420a7f2446564eacf44ca1c74db79, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MoonTexCube:
+        m_Texture: {fileID: 8900000, guid: 2151f8cc968d58141a4a7a76e60f608b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarNoise3D:
+        m_Texture: {fileID: 11700000, guid: f8969cadf06e42a4e98752dcea0053a4, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarNoiseTex:
+        m_Texture: {fileID: 11700000, guid: f8969cadf06e42a4e98752dcea0053a4, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarTex:
+        m_Texture: {fileID: 2800000, guid: 3434b05ed681c4a44857b484d06e0931, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CubeMapLOD: 1
+    - _DayHorWidth: 0.07
+    - _GalaxyRadius: 2.43
+    - _HorWidth: 0.393
+    - _MoonExposure: 0.6
+    - _MoonRadius: 0.073
+    - _MoonSmooth: 0.00515
+    - _NightHorWidth: -0.167
+    - _SunRadius: 16.4
+    m_Colors:
+    - _DayC01: {r: 0.37676108, g: 0.6384806, b: 0.6509434, a: 1}
+    - _DayC02: {r: 0.5096789, g: 0.7109724, b: 0.7169812, a: 1}
+    - _DayC03: {r: 0.11816874, g: 0.12024731, b: 0.20754719, a: 1}
+    - _DayHorColor: {r: 0.12592217, g: 0.060083285, b: 0.21698111, a: 1}
+    - _GalaxyColor1: {r: 0.21698111, g: 0.17471482, b: 0.19417155, a: 1}
+    - _GalaxyColor2: {r: 0, g: 0, b: 0, a: 1}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MoonColor: {r: 1.8509804, g: 1.8509804, b: 1.8509804, a: 1}
+    - _NightC01: {r: 0.115352064, g: 0.13229021, b: 0.21698111, a: 1}
+    - _NightHorColor: {r: 0.10472653, g: 0.07182625, b: 0.18867922, a: 1}
+    - _SunColor: {r: 2, g: 0.99607843, b: 0.2901961, a: 1}
+  m_BuildTextureStacks: []
