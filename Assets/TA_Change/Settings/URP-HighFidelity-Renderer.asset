@@ -1,5 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8197248012157826326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e3913d145d67224fae38087e98a3b97, type: 3}
+  m_Name: FogRenderFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    passEvent: 500
+    material: {fileID: 2100000, guid: 124db9efade56e948a98391172315352, type: 2}
 --- !u!114 &-7960181055549149891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39,6 +55,27 @@ MonoBehaviour:
       restoreCamera: 1
       offset: {x: 0, y: 0, z: 0, w: 0}
       cameraFieldOfView: 60
+--- !u!114 &-7623137168464307018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41659b0d95853d7419e903f228977569, type: 3}
+  m_Name: DepthFogDeep
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  fogColor: {r: 0.17079544, g: 0.16647917, b: 0.2830189, a: 0}
+  fogDensity: 0
+  enableFarFog: 0
+  fogStart: 0
+  fogEnd: 1
+  enableDeepFog: 1
+  fogDeepStart: -5.72
+  fogDeepEnd: 7.69
 --- !u!114 &-7494353810713460410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101,6 +138,21 @@ MonoBehaviour:
     DirectLightingStrength: 0.25
     Radius: 0.25
     SampleCount: 12
+--- !u!114 &-254632463241150427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ae150fd10edbc741a66d7a1fe3c1a1d, type: 3}
+  m_Name: Fog0RenderFeature
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  m_shader: {fileID: 4800000, guid: 3aa569b598a15784582929bd366ef767, type: 3}
+  m_Material: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120,7 +172,9 @@ MonoBehaviour:
   - {fileID: -1878332245247344467}
   - {fileID: -7494353810713460410}
   - {fileID: -7960181055549149891}
-  m_RendererFeatureMap: adc0de57c6d2eee54641547beab4fe973ded323c81c18791
+  - {fileID: -7623137168464307018}
+  - {fileID: 4144308165392169085}
+  m_RendererFeatureMap: adc0de57c6d2eee54641547beab4fe973ded323c81c18791b69c9b67222d35967d78f3a5518a8339
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -154,10 +208,44 @@ MonoBehaviour:
     failOperation: 0
     zFailOperation: 0
   m_ShadowTransparentReceive: 1
-  m_RenderingMode: 0
-  m_DepthPrimingMode: 0
+  m_RenderingMode: 1
+  m_DepthPrimingMode: 1
   m_CopyDepthMode: 0
-  m_AccurateGbufferNormals: 0
+  m_AccurateGbufferNormals: 1
   m_ClusteredRendering: 0
   m_TileSize: 32
-  m_IntermediateTextureMode: 1
+  m_IntermediateTextureMode: 0
+--- !u!114 &201511286632792840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7594ca7eadc14648ae8cad6b2f48351, type: 3}
+  m_Name: TestRenderFeature
+  m_EditorClassIdentifier: 
+  m_Active: 0
+--- !u!114 &4144308165392169085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41659b0d95853d7419e903f228977569, type: 3}
+  m_Name: DepthFogFar
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  fogColor: {r: 0.17254902, g: 0.16470589, b: 0.28235295, a: 1}
+  fogDensity: 0
+  enableFarFog: 1
+  fogStart: 0
+  fogEnd: 0.541
+  enableDeepFog: 0
+  fogDeepStart: 0
+  fogDeepEnd: 1

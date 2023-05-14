@@ -57,7 +57,7 @@ Material:
     - _CubeMapLOD: 1
     - _DayHorWidth: 0.07
     - _GalaxyRadius: 2.43
-    - _HorWidth: 0.393
+    - _HorWidth: 0.245
     - _MoonExposure: 0.6
     - _MoonRadius: 0.073
     - _MoonSmooth: 0.00515
@@ -68,10 +68,10 @@ Material:
     - _DayC02: {r: 0.5096789, g: 0.7109724, b: 0.7169812, a: 1}
     - _DayC03: {r: 0.11816874, g: 0.12024731, b: 0.20754719, a: 1}
     - _DayHorColor: {r: 0.12592217, g: 0.060083285, b: 0.21698111, a: 1}
-    - _GalaxyColor1: {r: 0.21698111, g: 0.17471482, b: 0.19417155, a: 1}
-    - _GalaxyColor2: {r: 0, g: 0, b: 0, a: 1}
-    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
-    - _MoonColor: {r: 1.8509804, g: 1.8509804, b: 1.8509804, a: 1}
+    - _GalaxyColor1: {r: 0.21698111, g: 0.20132571, b: 0.20915341, a: 1}
+    - _GalaxyColor2: {r: 0.047169805, g: 0.047169805, b: 0.047169805, a: 1}
+    - _MainColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MoonColor: {r: 1, g: 1, b: 1, a: 1}
     - _NightC01: {r: 0.115352064, g: 0.13229021, b: 0.21698111, a: 1}
     - _NightHorColor: {r: 0.10472653, g: 0.07182625, b: 0.18867922, a: 1}
     - _SunColor: {r: 2, g: 0.99607843, b: 0.2901961, a: 1}
